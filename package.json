@@ -1,5 +1,5 @@
 {
-  "name": "PoseNet React Boilerplate",
+  "name": "PoseNetReact",
   "version": "1.0.0",
   "description": "Basic boilerplate for using PoseNet in React.js",
   "engines": {
@@ -16,6 +16,7 @@
     "precommit": "lint-staged",
     "prepare": "if [ -d .git ]; then npm-merge-driver install; fi",
     "prettify": "prettier --write \"**/*.{js,jsx,json,css,scss,md}\"",
+    "postinstall": "touch secrets.js",
     "seed": "node script/seed.js",
     "start": "node server",
     "start-dev": "NODE_ENV='development' npm run build-client-watch & NODE_ENV='development' npm run start-server",

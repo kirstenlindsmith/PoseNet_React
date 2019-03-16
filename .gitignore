@@ -1,0 +1,9 @@
+node_modules
+public/bundle.js
+public/bundle.js.map
+npm-debug.log
+yarn-error.log
+.eslintrc.json
+.prettierignore
+.travis.yml
+package-lock.json
